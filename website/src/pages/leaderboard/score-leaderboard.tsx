@@ -1,12 +1,10 @@
-import RankItem from "@/components/RankItem";
-import { BarsArrowUpIcon, BarsArrowDownIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
-import { HiBarsArrowUp, HiBarsArrowDown } from "react-icons/hi2";
+import RankItem from "src/components/RankItem";
+import { HiBarsArrowDown } from "react-icons/hi2";
 
 const LeaderBoard = () => {
   const PlaceHolderProps = { username: "test_user", score: 10 };
   return (
-    <div className=" p-6 h-full mx-auto bg-slate-100 text-gray-800">
+    <div className="p-6 bg-slate-100 text-gray-800">
       <div className="flex flex-col">
         <div className="rounded-lg shadow-lg h-full block bg-white">
           <div className="p-8">
