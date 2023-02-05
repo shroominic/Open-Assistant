@@ -8,7 +8,7 @@ import os
 
 class DataCollectionBot(commands.AutoShardedBot):
     '''
-    A bot for collecting data from the Discord API.
+    A bot for collecting data for Open Assistant.
     '''
 
     def __init__(self, *args, **kwargs):
